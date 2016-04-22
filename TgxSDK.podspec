@@ -24,4 +24,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'Reachability'
   spec.dependency 'FMDB'
 #  spec.dependency 'wax', :git=>'https://github.com/alibaba/wax.git'
+
+
 end
