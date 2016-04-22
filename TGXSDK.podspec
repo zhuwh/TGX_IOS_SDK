@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   #项目名称
   spec.name         = 'TGXSDK'
   #版本号
-  spec.version      = ‘0.1.1’
+  spec.version      = '0.1.1'
   #开源协议
   spec.license      = { :"type" => "Copyright",
                          :"text" => " Copyright 2016 TGX \n"}
