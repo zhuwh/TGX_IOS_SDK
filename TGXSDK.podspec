@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   #作者信息
   spec.author       = {'mark' => 'zhuwenhui5566@163.com'}
   #项目的源和版本号
-  spec.source       = { :git => 'https://github.com/zhuwh/TGX_IOS_SDK.git', :tag => '0.1.1' }
+  spec.source       = { :git => 'https://github.com/zhuwh/TGX_IOS_SDK.git', :tag => "#{spec.version}" }
   #源文件，这个就是供第三方使用的源文件
   spec.source_files = "**/include/**/*.h"
   spec.vendored_libraries = "**/lib#{spec.name}.a"
