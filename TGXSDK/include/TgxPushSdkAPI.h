@@ -18,6 +18,7 @@
 + (void) setAppTags:(NSArray<TgxTagEntity*> *)tags cb:(API_CALLBACK)cb;
 + (void) initSdk:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 + (void) startWork:(id<TgxPushDelegate>) delegate;
++ (void) startWork;
 + (void) bindToken:(NSData *)deviceToken;
 + (void) didReceiveRemoteNotification:(NSDictionary *)userInfo;
 
